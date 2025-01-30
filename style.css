@@ -1,0 +1,127 @@
+body{
+    background-color: #383636;
+    margin: 0;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5%;
+    border-bottom: 3px solid red;
+    border-radius: 15px;
+}
+header.logo{
+    font-size: 95px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+header.menu{
+    list-style: none;
+    display: flex;
+    color: #fff;
+}
+header.menu a{
+    position: relative;
+    margin: 0 10 px; 
+    text-decoration: 0;
+    color: #fff;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+header.buttons button{
+    margin-left: 10px;
+    padding: 5px 15px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+.home{
+    text-align: center;
+    padding: 60px 20px;
+    align-items: center;
+}
+.home h1{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.home span{
+    color: red;
+}
+.home button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.home div{
+    align-items: center;
+    border: 1px solid ;
+    background-color: #9790906d;
+    width:900px ;
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 15px;
+    margin-left: 400px;
+}
+.home img{
+    width: 1200px;
+    height: auto;
+    margin-left: -110px;
+    margin-top: -200px;
+}
+.home img:hover {
+    transform: scale(1.05);
+}
+.home h3 {
+    margin-top: 100px;
+}
+.separateur{
+    border: none;
+    height: 1px;
+    background-color: #fff;
+    margin: 40px 40px;
+}
+.part {
+    padding: 40px 20px;
+    align-items: center;
+}
+.part h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.part.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.part.container.box {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border: 1px solid red;
+    text-align: center;
+    border-radius: 10px;
+    width: 200px;
+}
+.part.container.box.p {
+    font-size: 1.2em;
+    color: red;
+}
+.tete{
+    background-image: url(femme.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tete h1{
+    font-family: Mongolian Baiti;
+    font-weight: normal;
+    font-size: 45px;
+}
